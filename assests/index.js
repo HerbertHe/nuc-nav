@@ -45,4 +45,8 @@
     )
     innerServicesBox.innerHTML = innerServicesDom.join("")
     outerServicesBox.innerHTML = outerServicesDom.join("")
+
+    document.getElementById(
+        "myssl-link"
+    ).href = `https://myssl.com/${location.hostname}?from=mysslid`
 })()
