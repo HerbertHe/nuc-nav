@@ -45,6 +45,4 @@
     )
     innerServicesBox.innerHTML = innerServicesDom.join("")
     outerServicesBox.innerHTML = outerServicesDom.join("")
-    console.log(innerServicesDom)
-    console.log(outerServicesDom)
 })()
