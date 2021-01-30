@@ -49,4 +49,8 @@
     document.getElementById(
         "myssl-link"
     ).href = `https://myssl.com/${location.hostname}?from=mysslid`
+
+    document.getElementById(
+        "nuc-nav-info-slot"
+    ).innerHTML = `<span>中北大学学生邮箱的初始密码为: <span style="font-weight: 600;">身份证号后六位 + Zbdx</span></span>`
 })()

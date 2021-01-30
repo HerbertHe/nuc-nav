@@ -52,6 +52,13 @@ a:hover {
     text-decoration: underline;
 }
 
+#nuc-nav-info-slot {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .nuc-nav-license {
     width: 100%;
 }
