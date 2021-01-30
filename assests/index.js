@@ -1,7 +1,13 @@
 ;(function () {
     var innerServicesList = [
-        { href: "http://newi.nuc.edu.cn", description: "新版个人门户" },
-        { href: "https://www.cnki.net/", description: "中国知网" },
+        {
+            href: "http://newi.nuc.edu.cn",
+            description: "新版个人门户",
+        },
+        {
+            href: "https://www.cnki.net/",
+            description: "中国知网",
+        },
         {
             href: "http://lib.nuc.edu.cn/new/index_dangan.jsp",
             description: "图书馆 & 档案馆",
@@ -16,8 +22,14 @@
         },
     ]
     var outerServicesList = [
-        { href: "http://www.nuc.edu.cn", description: "中北大学官网" },
-        { href: "https://vpn.nuc.edu.cn:4433", description: "中北大学VPN" },
+        {
+            href: "http://www.nuc.edu.cn",
+            description: "中北大学官网",
+        },
+        {
+            href: "https://vpn.nuc.edu.cn:4433",
+            description: "中北大学VPN",
+        },
         {
             href: "http://mail.st.nuc.edu.cn/cgi-bin/login?fun=bizopenssologin",
             description: "学生教育邮箱",
@@ -50,7 +62,6 @@
         "myssl-link"
     ).href = `https://myssl.com/${location.hostname}?from=mysslid`
 
-    document.getElementById(
-        "nuc-nav-info-slot"
-    ).innerHTML = `<span>中北大学学生邮箱的初始密码为: <span style="font-weight: 600;">身份证号后六位 + Zbdx</span></span>`
+    document.getElementById("nuc-nav-info-slot").innerHTML =
+        '<span>中北大学学生邮箱的初始密码为: <span style="font-weight: 600;">身份证号后六位 + Zbdx</span></span>'
 })()
